@@ -3,6 +3,6 @@ FROM ruby:2.6.6
 # install a modern bundler version
 RUN gem install bundler
 
-ADD entrypoint.sh ./entrypoint.sh
+ADD entrypoint.sh /entrypoint.sh
 
 ENTRYPOINT ["sh","./entrypoint.sh"]
