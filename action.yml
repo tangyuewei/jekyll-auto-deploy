@@ -1,4 +1,4 @@
-name: Jekyll 4 Build & Deploy
+name: Jekyll Project Build & Deploy
 description: 'Builds & deploys a Jekyll 4.x site to master branch of the same repository.'
 branding:
   icon: 'package'
