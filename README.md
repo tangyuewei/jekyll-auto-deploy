@@ -13,12 +13,9 @@
 内容如下:
 
 ```yaml
-name: Jekyll Deploy
+name: Jekyll Project Build & Deploy
 
-on:
-  push:
-    branches:
-      - master
+on: [push]
 
 jobs:
   build_and_deploy:
