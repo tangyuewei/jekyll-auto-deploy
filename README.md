@@ -1,5 +1,5 @@
 ## 简介
-自动部署`jekyll`项目到`GitHub`。
+自动部署`jekyll`项目到`GitHub`相同仓库的`master`分支。
 
 ### 设置
 1. 创建个人访问令牌,单击您的个人资料照片，然后单击`Settings`->左侧边栏中，单击`Developer settings`->
