@@ -4,5 +4,6 @@ FROM ruby:2.6.6
 RUN gem install bundler
 
 ADD entrypoint.sh /entrypoint.sh
+RUN chmod +x entrypoint.sh
 
-ENTRYPOINT ["sh","/entrypoint.sh"]
+ENTRYPOINT ["/entrypoint.sh"]
