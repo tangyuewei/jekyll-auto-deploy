@@ -5,4 +5,4 @@ RUN gem install bundler
 
 ADD entrypoint.sh /entrypoint.sh
 
-ENTRYPOINT ["sh","./entrypoint.sh"]
+ENTRYPOINT ["sh","/entrypoint.sh"]
