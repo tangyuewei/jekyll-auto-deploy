@@ -1,5 +1,5 @@
 ## 简介
-自动部署`jekyll`项目到`GitHub`相同仓库的`master`分支。
+自动部署`jekyll`项目到`GitHub`相同仓库的`{DEPLOY_BRANCH}`分支。
 
 ### 设置
 1. 创建个人访问令牌,单击您的个人资料照片，然后单击`Settings`->左侧边栏中，单击`Developer settings`->
@@ -36,6 +36,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
           GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
+          DEPLOY_BRANCH: 'master'
 ```
 >更多信息请参阅[创建新文件](https://docs.github.com/cn/repositories/working-with-files/managing-files/creating-new-files)
 
