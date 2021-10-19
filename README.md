@@ -36,6 +36,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
           GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
+          DEPLOY_BRANCH: 'gh-pages'
 ```
 >更多信息请参阅[创建新文件](https://docs.github.com/cn/repositories/working-with-files/managing-files/creating-new-files)
 
